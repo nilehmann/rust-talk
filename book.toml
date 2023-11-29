@@ -1,0 +1,23 @@
+[book]
+authors = ["Nico Lehmann"]
+language = "en"
+multilingual = false
+src = "src"
+title = "A Gentle Introduction to Rust With a Focus on Ownership"
+
+[output.html]
+additional-css = [
+    "assets/slides.css",
+    "assets/ferris.css",
+    "assets/font-awesome.min.css",
+]
+additional-js = ["assets/ferris.js"]
+
+[output.html.playground]
+editable = true
+
+[output.html.print]
+enable = false
+
+
+[preprocessor.aquascope]

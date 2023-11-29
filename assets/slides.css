@@ -1,0 +1,172 @@
+div.interpreter {
+  font-size: 20px;
+}
+
+body {
+  font-size: 28px;
+}
+
+.content main {
+  max-width: min(90%, 1280px);
+}
+
+.aquascope td.perm-char {
+  font-size: 0.8em;
+}
+
+.aquascope div.step-table-dropdown {
+  max-height: initial;
+}
+
+.override-moved .interpreter .step table.locals tr.moved,
+.override-moved .interpreter .step .heap > table tr.moved {
+  opacity: 1;
+  background: initial;
+}
+
+.coal .override-moved use,
+.navy .override-moved use,
+.ayu .override-moved use {
+  stroke: #ededf0 !important;
+  fill: #ededf0 !important;
+}
+
+.coal #leader-line-arrow1,
+.navy #leader-line-arrow1,
+.ayu #leader-line-arrow1 {
+  stroke: #ededf0;
+  fill: #ededf0;
+}
+
+.light .override-moved use,
+.rust .override-moved use {
+  stroke: black !important;
+  fill: black !important;
+}
+
+.light #leader-line-arrow1,
+.rust #leader-line-arrow1 {
+  stroke: black;
+  fill: black;
+}
+
+.result-container > pre {
+  margin: 0;
+}
+
+pre > .result {
+  margin-block-start: 0;
+  font-size: 0.8em;
+}
+
+.menu-title {
+  opacity: 0;
+}
+
+#sidebar {
+  z-index: 200;
+}
+
+h1,
+h2 {
+  margin-top: 10px;
+}
+
+.content ul {
+  line-height: 2em;
+}
+
+.nav-chapters,
+.mobile-nav-chapters {
+  opacity: 0;
+  min-width: 30px;
+  transition: all 0.2s;
+}
+
+.nav-chapters:hover,
+.mobile-nav-chapters:hover {
+  opacity: 1;
+  min-width: 90px;
+}
+
+#menu-bar-hover-placeholder {
+  width: 160px;
+}
+
+#menu-bar {
+  width: 160px;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+#menu-bar:hover {
+  opacity: 1;
+  margin: auto calc(0px - var(--page-padding));
+}
+
+.content .aquascope {
+  margin-top: 1.5em;
+}
+
+#rust-lang-org {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#rust-lang-org .address-bar-container {
+  display: flex;
+  background-color: #efefef;
+  border-bottom: 1px solid #999;
+}
+
+#rust-lang-org .address-bar {
+  color: #777;
+  margin: 10px 20px;
+  min-width: 90%;
+  /* border: 1px solid #999; */
+  border-radius: 5px;
+  padding: 10px 20px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+}
+
+#rust-lang-org .url {
+  flex-grow: 1;
+  margin: 0px 15px;
+}
+
+#rust-lang-org span.domain {
+  color: black;
+}
+
+#rust-lang-org input {
+  color: #555;
+  font-size: 30px;
+  border: 0;
+  flex-grow: 1;
+  margin: 0px 15px;
+}
+
+#rust-lang-org iframe {
+  border: 0;
+  width: 100%;
+  flex-grow: 1;
+}
+
+.next {
+  right: 0;
+}
+
+.aquascope .top-right {
+  z-index: 100 !important;
+}
+
+.big {
+  font-size: large;
+}
